@@ -8,11 +8,5 @@ describe('Home', () => {
     expect(Home).toBeDefined();
   });
 
-  it('Home renders correctly', () => {
-    const tree = renderer
-      .create(<Home />)
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
 
 });

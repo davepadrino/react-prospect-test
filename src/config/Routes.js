@@ -11,9 +11,9 @@ const Routes = props => (
     <Switch>
       <NavBar>
         <Route exact path="/" component={Home} />
-        <Route exact path="/doctors" component={Doctors} />
-        <Route exact path="/services" component={Services} />
-        <Route exact path="/packages" component={Packages} />
+        <Route path="/doctors" component={Doctors} />
+        <Route path="/services" component={Services} />
+        <Route path="/packages" component={Packages} />
       </NavBar>
     </Switch>
   </Router>
